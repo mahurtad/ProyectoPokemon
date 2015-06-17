@@ -55,4 +55,9 @@ public class PrincipalActivity extends ActionBarActivity {
         Intent i = new Intent(this, PokemonesActivity.class);
         startActivity(i);
     }
+
+    public void aboutApp(View view) {
+        Intent i = new Intent(this, AboutActivity.class);
+        startActivity(i);
+    }
 }

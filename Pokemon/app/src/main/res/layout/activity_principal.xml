@@ -32,21 +32,24 @@
     <Button
         android:layout_width="237dp"
         android:layout_height="wrap_content"
-        android:text="@string/menu_acerca"
-        android:id="@+id/btnAcerca"
+        android:text="@string/menu_Otro"
+        android:id="@+id/btnLista"
+        android:layout_marginTop="20dp"
         android:layout_below="@+id/btnJugar"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="10dp" />
+        android:layout_marginBottom="10dp"
+        android:onClick="galeriaApp"/>
 
     <Button
         android:layout_width="237dp"
         android:layout_height="wrap_content"
-        android:text="@string/menu_Otro"
-        android:id="@+id/btnLista"
-        android:layout_marginTop="20dp"
-        android:layout_below="@+id/btnAcerca"
+        android:text="@string/menu_acerca"
+        android:id="@+id/btnAcerca"
+        android:layout_below="@+id/btnLista"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="10dp"
-        android:onClick="galeriaApp"/>
+        android:onClick="aboutApp"/>
+
+
 </RelativeLayout>
