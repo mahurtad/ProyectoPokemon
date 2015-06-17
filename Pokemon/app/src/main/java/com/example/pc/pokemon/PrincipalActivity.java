@@ -1,6 +1,7 @@
 package com.example.pc.pokemon;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -58,6 +59,30 @@ public class PrincipalActivity extends ActionBarActivity {
 
     public void aboutApp(View view) {
         Intent i = new Intent(this, AboutActivity.class);
+        startActivity(i);
+    }
+
+    public void facebookApp(View view) {
+        String ruta ="https://www.facebook.com/Pokemon";
+        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(ruta));
+        startActivity(i);
+    }
+
+    public void gplusApp(View view) {
+        String ruta ="https://plus.google.com/+Pokemonpets/videos";
+        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(ruta));
+        startActivity(i);
+    }
+
+    public void twitterApp(View view) {
+        String ruta ="https://twitter.com/pokemon";
+        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(ruta));
+        startActivity(i);
+    }
+
+    public void youtubeApp(View view) {
+        String ruta ="https://www.youtube.com/user/pokemon";
+        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(ruta));
         startActivity(i);
     }
 }
