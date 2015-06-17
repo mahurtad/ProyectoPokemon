@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PokTriv</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_titulo">Adivina el Pokemon</string>
+    <string name="menu_jugar">Jugar</string>
+    <string name="menu_acerca">Acerca de</string>
+    <string name="menu_Otro">Lista de Pokemones</string>
+    <string name="title_activity_juego">Juego</string>
+    <string name="title_activity_splash">PokTriv</string>
+    <string name="title_activity_pokemones">PokemonesActivity</string>
+</resources>
