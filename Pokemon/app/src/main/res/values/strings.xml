@@ -10,4 +10,5 @@
     <string name="title_activity_juego">Juego</string>
     <string name="title_activity_splash">PokTriv</string>
     <string name="title_activity_pokemones">PokemonesActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
 </resources>
