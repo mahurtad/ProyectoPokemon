@@ -8,7 +8,6 @@
     android:background="@drawable/ic_font3"
     android:weightSum="1">
 
-
     <RelativeLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
