@@ -62,27 +62,5 @@ public class PrincipalActivity extends ActionBarActivity {
         startActivity(i);
     }
 
-    public void facebookApp(View view) {
-        String ruta ="https://www.facebook.com/Pokemon";
-        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(ruta));
-        startActivity(i);
-    }
 
-    public void gplusApp(View view) {
-        String ruta ="https://plus.google.com/+Pokemonpets/videos";
-        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(ruta));
-        startActivity(i);
-    }
-
-    public void twitterApp(View view) {
-        String ruta ="https://twitter.com/pokemon";
-        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(ruta));
-        startActivity(i);
-    }
-
-    public void youtubeApp(View view) {
-        String ruta ="https://www.youtube.com/user/pokemon";
-        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(ruta));
-        startActivity(i);
-    }
 }
